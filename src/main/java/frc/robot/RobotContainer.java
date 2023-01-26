@@ -18,35 +18,18 @@ import edu.wpi.first.wpilibj2.command.Commands;
 import edu.wpi.first.wpilibj2.command.ConditionalCommand;
 import edu.wpi.first.wpilibj2.command.InstantCommand;
 import edu.wpi.first.wpilibj2.command.RunCommand;
-import edu.wpi.first.wpilibj2.command.button.Trigger;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import io.github.oblarg.oblog.annotations.Config;
 import io.github.oblarg.oblog.annotations.Log;
-import frc.robot.commands.AutoAim;
-import frc.robot.commands.FenderDelay;
-import frc.robot.commands.Forward;
-import frc.robot.commands.Left2BallD;
-import frc.robot.commands.Mid4Ball;
-import frc.robot.commands.Mid5Ball;
-import frc.robot.commands.Right5Ball;
-import frc.robot.commands.SemiCircle;
-import frc.robot.commands.Simple2Ball;
-import frc.robot.commands.Straight;
+
 // Subsystem Imports
-import frc.robot.subsystems.ShooterSubsystem;
 import frc.swervelib.SwerveDrivetrainModel;
 import frc.swervelib.SwerveSubsystem;
-import frc.robot.subsystems.IntakeSubsystem;
-import frc.robot.subsystems.ConveyorSubsystem;
-import frc.robot.subsystems.ClimbSubsystem;
 import frc.robot.subsystems.PhotonVision;
-import frc.robot.Constants.CONVEYOR;
 import frc.robot.Constants.DRIVE;
-import frc.robot.Constants.INTAKE;
 // Constant Imports
 import frc.robot.Constants.OI;
-import frc.robot.Constants.SHOOTER;
 // Special Imports
 import frc.robot.UA6391.XboxController6391;
 
